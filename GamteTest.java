@@ -43,7 +43,7 @@ public class GameTest
 
     @Test
     public void ScorePerfectGame() {
-        game.roll(10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10);
+        game.roll(10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10 ,10,10,10);
         assertThat(game.score(), is(300));
     }
 
