@@ -1,5 +1,8 @@
-package mehdi.kata.bowling;
-
+package bowling.game;
+/**
+ * Hello world!
+ *
+ */
 public class Game
 {
     private int roll = 0;
